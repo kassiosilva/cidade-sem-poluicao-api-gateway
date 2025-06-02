@@ -57,7 +57,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## Como executar?
 1. Você precisa instalar **Node.js** na versão `>=22.14.0`. O projeto utiliza o [Mise](https://mise.jdx.dev/) para gerenciar a versão do node, se você utiliza o Mise basta executar o comando na raiz do projeto: `mise install`. Se não utilizar o mise basta utilizar o version manager de sua preferência(nvm, asdf e etc).
 
-2. Clone o projeto e execute o comanda abaixo para instalar as dependências:
+2. Clone o projeto e execute o comando abaixo para instalar as dependências:
     ```bash
     npm install
     ```
@@ -71,7 +71,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
     >  ⚠️ Atenção
     >
-    > Nesse exemplo estamos utizando os microsserviços que estão implantados na vercel, mas caso você queira rodar a api-gateway e os serviços locais na sua máquina, é necessário que você configure e rode cada serviço e coloque as suas url's locais no `.env` do api-gateway. Por favor leia a documentação do [cidade-sem-poluicao-microservices](https://github.com/kassiosilva/cidade-sem-poluicao-microservices) para isso.
+    > Nesse exemplo estamos utilizando os microsserviços que estão implantados na vercel, mas caso você queira rodar a api-gateway e os serviços locais na sua máquina, é necessário que você configure e rode cada serviço e coloque as suas url's locais no `.env` do api-gateway. Por favor leia a documentação do [cidade-sem-poluicao-microservices](https://github.com/kassiosilva/cidade-sem-poluicao-microservices) para isso.
 
 4. Agora basta rodar o comando para executar o servidor:
     ```bash
