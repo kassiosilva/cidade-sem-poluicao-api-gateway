@@ -41,6 +41,24 @@ Recebemos a request com recurso a ser acessado e encaminhamos para o seu respect
 | /register-donor    | https://cd-donation-service.vercel.app/register-donor    |
 | /contact-us        | https://cd-contact-us-service.vercel.app/contact-us      |
 
+## Estrutura do projeto
+```
+.
+├── .editorconfig
+├── .env
+├── .env.example
+├── .eslintignore
+├── .eslintrc.json
+├── .gitignore
+├── mise.toml
+├── .npmrc
+├── package.json
+├── package-lock.json
+├── README.md
+├── src
+│   └── index.js
+└── vercel.json
+```
 
 ## Tecnologias
 
