@@ -28,7 +28,7 @@ No contexto do nosso projeto utilizar um API Gateway oferece diversas vantagens:
 
 * **Roteamento Inteligente:** O API Gateway é responsável por receber uma requisição e encaminhá-la para o microsserviço correto. Por exemplo, uma requisição para `/login` pode ser roteada para o serviço de autenticação, enquanto uma requisição para `/contact-us` pode ir para o serviço de contato.
 
-* **Facilidade no Desenvolvimento e Manutenção:** Fica mais fácil para a nossa equipe trabalhar em microsserviços independentes sem causar grande impacto umas nas outras, já que o Gateway gerencia a entrada da API.
+* **Facilidade no Desenvolvimento e Manutenção:**Fica mais fácil para a nossa equipe trabalhar em microsserviços independentes, sem causar grandes impactos entre eles, já que o Gateway gerencia a entrada da API.
 
 ### Como funciona?
 Recebemos a request com recurso a ser acessado e encaminhamos para o seu respectivo microsserviço. Aqui está a listagem deles:
